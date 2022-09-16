@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+header{
+    background-color: rgb(246, 212, 167);
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.overlay{
+    /* display: flex; */
+    position: absolute;
+    z-index: 1;
+   top: 0;
+   /* height: 100%; */
+   right: 0;
+   background-color: azure;
+
+
+}
+.container ,.products-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    margin-top: 50px;
+    padding-bottom: 30px;
+
+}
+.image{
+    position: relative;
+    /* overflow: hidden; */
+    /* text-align: center; */
+    /* display: visible; */
+}
+.add-cart{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(216, 209, 201);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    color: blueviolet;
+   
+}
+.image:hover .cart11,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4{
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+/* ********************* Cart Page Style  ***************************** */
+.products-container{
+    max-width: 700px;
+    margin: 0 auto;
+    justify-content: space-around;
+    /* background-color: antiquewhite; */
+    margin-top: 50px;
+    border-bottom: 4px solid lightgrey;
+}
+.products-container{
+    font-size: 25px;
+    color: blue;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    cursor: pointer;
+}
+.product-header{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    /* border-bottom: 4px solid lightgrey; */
+}
+
+.product-title{
+    width: 45%;
+    display: flex;
+    align-items: center;
+
+}
+.price{
+    width: 15%;
+    /* border-bottom: 1px solid lightgray; */
+    display: flex;
+    align-items: center;
+
+}
+.quantity{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.total{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+
+}
+.products{
+    width: 75px;
+
+}
+.products img {
+    width: 30%;
+}
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+
+}
