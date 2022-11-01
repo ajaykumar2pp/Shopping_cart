@@ -8,9 +8,9 @@ This is a Nodejs Authentication  Project which is built using Nodejs, Ejs ,CSS, 
 <br/>
 
 ## Features
--User signup  on this page ..Name,Email_ID, and Password .
--User sign in on this page...Name and Password.
--User can reset or change password.Enter your name , Enter your old password and Enter new password. The Password store in mongoDB has encrypted
+-User signup  on this page ..Name,Email_ID, and Password .  <br/>   
+-User sign in on this page...Name and Password.    <br/>
+-User can reset or change password.Enter your name , Enter your old password and Enter new password. The Password store in mongoDB has encrypted <br/>
 <br/>
 <br/>
 .
