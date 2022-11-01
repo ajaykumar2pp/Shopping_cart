@@ -5,17 +5,17 @@ You may also see any lint errors in the console.
 <br/>
 
 ## Packages Install
-->>body-parser
-->>dotenv
--ejs
--express
--express-flash
--express-session
--mongoose
--passport
--passport-local
--passport-local-mongoose
--nodemon
+-body-parser <br/>
+-dotenv<br/>
+-ejs<br/>
+-express<br/>
+-express-flash<br/>
+-express-session<br/>
+-mongoose<br/>
+-passport<br/>
+-passport-local<br/>
+-passport-local-mongoose<br/>
+-nodemon<br/>
 
 ## 🔗 Links
 
